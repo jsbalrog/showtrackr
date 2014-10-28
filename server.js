@@ -123,7 +123,7 @@ app.post('/api/shows', function(req, res, next) {
             poster: series.poster,
             episodes: []
           });
-          _.each(episodes, functin(episode) {
+          _.each(episodes, function(episode) {
             show.episodes.push({
               season: episode.seasonnumber,
               episodeNumber: episode.episodenumber,
